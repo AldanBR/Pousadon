@@ -1,0 +1,37 @@
+@keyframes slide{
+    0%{background-image: url("../img/slider/praiafoto1.png");
+    }
+
+    22%{background-image: url("../img/slider/praiafoto1.png")
+    }
+
+    25%{background-image: url("../img/slider/praiafoto2.png")
+    }
+
+    46%{background-image: url("../img/slider/praiafoto2.png")
+    }
+
+    50%{background-image: url("../img/slider/praiafoto3.png")
+    }
+
+    72%{background-image: url("../img/slider/praiafoto3.png")
+    }
+
+    75%{background-image: url("../img/slider/praiafoto4.png")
+    }
+
+    96%{background-image: url("../img/slider/praiafoto4.png")
+    }
+
+    100%{background-image: url("../img/slider/praiafoto1.png")
+    }
+
+}
+
+.bg{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slide 30s ease 0s infinite alternate none; 
+}
