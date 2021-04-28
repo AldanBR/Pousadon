@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/slide.css">
     <link rel="stylesheet" href="css/master.css">
+    <link rel="stylesheet" href="css/responsivo.css">
     <title>Pousadon</title>
 </head>
 <body>
@@ -100,37 +102,48 @@
             <div class="faleConosco">
                 <div class="form">
                     <label for="nome"> Nome: </label>
-                    <input type="text" id="nome" name="nome" placeholder="Nome completo">
+                    <input type="text" id="Nome" name="nome" placeholder="Nome completo">
                     <br>
                     <label for="email"> E-mail: </label>
-                    <input type="email" name="email" id="email" placeholder="example@email.com">
+                    <input type="email" name="email" id="Email" placeholder="example@email.com">
                     <br>
                     <label for="mensagem"> Mensagem:  </label>
                     <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="Escreva..."></textarea>
                     <br>
-                
-
-                    <input type="submit" style: value="Enviar Mensagem">
-
+                    <a href="#popup1"><input id="button" type="button" value="Enviar Mensagem"></a>
                 </div>
+
                 <div class="TextoFale">
-                    <h1>Ficou com alguma dúvida? Fale Conosco!</h1>
+                    <h1>Tem alguma dúvida? <br> Fale Conosco!</h1>
                     <p>Envie-nos uma mensagem no campo ao lado, com seu nome e email, teremos o prazer de sanar suas dúvidas. Nossa equipe de atendimento está 24hrs disponível e lhe enviará uma resposta via email em até 5 minutos </p>
+                </div>
+
+                <div id="popup1" class="overlay">
+                    <div class="popup">
+                        <i class="material-icons">check_circle</i><h2>Mensagem Enviada </h2>
+                        <a class="close" href="#faleConosco">&times;</a>
+                        <div class="content">
+                            Sua mensagem foi enviada, aguarde em seu correio eletrônico a resposta da nossa equipe de atendimento
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
     </main>
 
     <footer>
+        <div class="vaichegar">
+            <p>Outras opções de contato </p>
+          </div>
         
-            <div class="contatos limitador-container">
-                <div class="footer-info">
-                    <h4>Entre em Contato conosco</h4>
+            <div class="contatos ldimitador-container">
+                <div class="footer-info vaisumir">
+                    <h4>Outras opções de contato</h4>
                 </div>
                 <a class="footer-info" target="_blank" href="https://goo.gl/maps/6bRTVwiTiPcTHHDd6">
                     <img class="footer-icon" src="img/icones/endereco.png" alt="Ícone endereco" title="Ícone endereco"/>
             
-                    <p> Rua Dr. Damasquins Ramos Maciel, 951 - Bessa - João Pessoa PB</p>
+                    <p> Rua Dr. Damasquins Ramos Maciel, 951 - João Pessoa PB</p>
                 </a>
 
                 <a class="footer-info" a href="tel:+5583000000">
