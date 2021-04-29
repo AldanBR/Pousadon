@@ -90,6 +90,10 @@
 
     }
 
+    .popup{
+        width: 60%;
+    }
+
 
 
 }
@@ -104,9 +108,17 @@
         padding: 0;
         
     }
+
+    .popup{
+        width: 75%;
+    }
 }
 
 @media all and (max-width: 360px){
+
+    .popup{
+        width: 95%;
+    }
 
     div.faleConosco{
         flex-direction: column;
@@ -117,7 +129,6 @@
         
     div.form{
         margin-top: .2rem;
-        background-color: blue;
         width: 75%;
         order: 1;
     }
