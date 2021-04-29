@@ -152,6 +152,77 @@
     }
 
 
+    /* pagina de quartos */
+
+    .quartos-img{
+        display: none;
+    }
+
+    @import "slide.css";
+
+    .solteiroBGResponsivo{
+        
+        display: flex;
+        flex-grow: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation:  quartoSolteiro 10s ease 0s infinite alternate none; 
+    }
+
+    .solteiroBGResponsivo img{
+        visibility: hidden;
+    }
+
+    .casalBGResponsivo{
+        display: flex;
+        flex-grow: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation:  quartoCasal 20s ease 0s infinite alternate none; 
+    }
+
+    .casalBGResponsivo img{
+        visibility: hidden;
+    }
+
+    .familiaBGResponsivo{
+        display: flex;
+        flex-grow: 1;
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        animation:  quartoFamilia 30s ease 0s infinite alternate none; 
+    }
+
+    .familiaBGResponsivo img{
+        visibility: hidden;
+    }
+
+    .titulo-box{
+        text-align:center;
+
+    }
+
+    .titulo-box ul{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        list-style: none;
+        padding: 0;
+        font-size: 12px;
+        
+
+    }
+
+    .titulo-box ul li{
+        text-align: center;
+        
+
+    }
+
+
 }
 
 
