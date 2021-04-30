@@ -94,11 +94,25 @@
         width: 60%;
     }
 
+    .descricao {
+        display: flex;
+        width: 100%;
+        margin: 0 10px;
+        align-items: center;
+        /* justify-content: center; */
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .miniatura-img {
+        width: 80%;
+    }
+
 
 
 }
 
-@media all and (max-width: 451px){
+@media all and (max-width: 458px){
     .topo nav a {
         padding: 0px 2px 10px 2px;
             
@@ -112,9 +126,36 @@
     .popup{
         width: 75%;
     }
+
+    div.faleConosco{
+        height: 45rem;
+    }
+
+    .footer-info{
+        flex-direction: row;
+        width:75%
+    }
+
+    .gambiarradoCapeta{
+        margin-right: 28%;
+
+    }
+
+    .contatos{
+        flex-direction: column;
+        align-content: center;
+        text-align: center;
+    }
+
+    .contatos p {
+        display: flex;
+        flex-grow: 1;
+    }
+
+
 }
 
-@media all and (max-width: 360px){
+@media all and (max-width: 360px) {
 
     .popup{
         width: 95%;
@@ -135,20 +176,6 @@
 
     .Topo .Container-topo{
         padding: 0;
-    }
-
-    .descricao {
-        display: flex;
-        width: 100%;
-        margin: 0 10px;
-        align-items: center;
-        /* justify-content: center; */
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .miniatura-img {
-        width: 80%;
     }
 
 
