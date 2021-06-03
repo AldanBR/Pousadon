@@ -1,0 +1,103 @@
+@keyframes slideForm{
+    0%{background-image: url("../img/slider/praiafoto1.png");
+    }
+
+    22%{background-image: url("../img/slider/praiafoto1.png")
+    }
+
+    25%{background-image: url("../img/slider/praiafoto2.png")
+    }
+
+    46%{background-image: url("../img/slider/praiafoto2.png")
+    }
+
+    50%{background-image: url("../img/slider/praiafoto3.png")
+    }
+
+    72%{background-image: url("../img/slider/praiafoto3.png")
+    }
+
+    75%{background-image: url("../img/slider/praiafoto4.png")
+    }
+
+    96%{background-image: url("../img/slider/praiafoto4.png")
+    }
+
+    100%{background-image: url("../img/slider/praiafoto1.png")
+    }
+
+}
+
+.bg{
+    display: flex;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    animation: slideForm 30s ease 0s infinite alternate none; 
+}
+
+
+@keyframes quartoSolteiro {
+    0%{background-image: url("../img/quarto-solteiro1.jpg");
+    }
+
+    25%{background-image: url("../img/quarto-solteiro1.jpg");
+    }
+
+    28%{background-image: url("../img/quarto-solteiro2.jpg");
+    }
+
+    72%{background-image: url("../img/quarto-solteiro2.jpg");
+    }
+
+    75%{background-image: url("../img/quarto-solteiro3.jpg");
+    }
+
+    100%{background-image: url("../img/quarto-solteiro3.jpg");
+    }
+    
+}
+
+
+@keyframes quartoCasal {
+    0%{background-image: url("../img/quarto-casal1.jpg");
+    }
+
+    25%{background-image: url("../img/quarto-casal1.jpg");
+    }
+
+    28%{background-image: url("../img/quarto-casal2.jpg");
+    }
+
+    72%{background-image: url("../img/quarto-casal2.jpg");
+    }
+
+    75%{background-image: url("../img/quarto-casal3.jpg");
+    }
+
+    100%{background-image: url("../img/quarto-casal3.jpg");
+    }
+    
+}
+
+@keyframes quartoFamilia {
+    0%{background-image: url("../img/quarto-familia1.jpg");
+    }
+
+    25%{background-image: url("../img/quarto-familia1.jpg");
+    }
+
+    28%{background-image: url("../img/quarto-familia2.jpg");
+    }
+
+    72%{background-image: url("../img/quarto-familia2.jpg");
+    }
+
+    75%{background-image: url("../img/quarto-familia3.jpg");
+    }
+
+    100%{background-image: url("../img/quarto-familia3.jpg");
+    }
+    
+}
+
